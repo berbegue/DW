@@ -55,10 +55,7 @@ h1{
     grid-area: titulo;
     text-align: center;
 }
-.flecha img{
-    height: 2rem;
 
-}
 #b1{
     grid-area: izq;
     justify-self: end;
@@ -132,18 +129,17 @@ h2{
     grid-area: ingreso3;
     justify-self: center;
 }
-.ingreso1 img{
+.ultIngresos img{
     width: 10rem;
     height: 10rem;
 }
-.ingreso2 img{
-    width: 10rem;
-    height: 10rem;
+.flecha img{
+    height: 2rem;
+    width: 2rem;
+
 }
-.ingreso3 img{
-    width: 10rem;
-    height: 10rem;
-}
+
+
 /*configuracion footer*/
 footer img{
     width: 2rem;
@@ -179,15 +175,27 @@ footer h3{
     margin: 1rem;
 }
 .producto1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     grid-area: p1;
 }
 .producto2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     grid-area: p2;
 }
 .producto3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     grid-area: p3;
 }
 .producto4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     grid-area: p4;
 }
 .listaProductos h4{
