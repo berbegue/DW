@@ -102,6 +102,7 @@ h1{
                          "izq2 ingreso1 ingreso2 ingreso3 der2";
     align-items: center;
     row-gap: 1rem;
+    column-gap: 1rem;
 }
 h2{
     grid-area: titulo2;
